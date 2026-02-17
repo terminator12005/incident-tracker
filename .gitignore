@@ -1,0 +1,26 @@
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Mac
+.DS_Store
+
+# Backend (Maven/Spring Boot)
+demo/target/
+demo/.mvn/wrapper/maven-wrapper.jar
+demo/.idea/
+demo/*.iml
+
+# Frontend (Node/React)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+# Logs
+*.log
+
+# Sensitive files
+**/application.properties

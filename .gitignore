@@ -7,10 +7,10 @@
 .DS_Store
 
 # Backend (Maven/Spring Boot)
-demo/target/
-demo/.mvn/wrapper/maven-wrapper.jar
-demo/.idea/
-demo/*.iml
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.idea/
+backend/*.iml
 
 # Frontend (Node/React)
 frontend/node_modules/

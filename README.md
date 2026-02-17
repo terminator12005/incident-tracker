@@ -48,7 +48,7 @@ A full-stack incident management system built with Spring Boot and React for tra
 CREATE DATABASE incident_tracker;
 ```
 
-2. Configure database credentials in `demo/src/main/resources/application.properties`:
+2. Configure database credentials in `backend/src/main/resources/application.properties`:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/incident_tracker
 spring.datasource.username=root
@@ -59,7 +59,7 @@ spring.datasource.password=YOUR_PASSWORD
 
 1. Navigate to the backend directory:
 ```bash
-cd demo
+cd backend
 ```
 
 2. Build the project:
@@ -118,7 +118,7 @@ The frontend will start on `http://localhost:5173`
 
 ```
 Internship-/
-├── demo/                          # Backend (Spring Boot)
+├── backend/                       # Backend (Spring Boot)
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/
